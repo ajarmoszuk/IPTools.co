@@ -8,17 +8,17 @@
 		  <div class="col l3 s12">
 			  <h5 class="white-text">Bookmarklets</h5>
 			  <ul>
-				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://iptools.co/ping?ip='+encodeURIComponent(location.host)+'&t=4'">Ping this site</a></li>
-				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://iptools.co/trace?ip='+encodeURIComponent(location.host)+'&hops=30'">Traceroute this site</a></li>
-				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://iptools.co/ports?ip='+encodeURIComponent(location.host)+'&c=1'">Check common ports on this site</a></li>
+				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://<?php $_SERVER['SERVER_NAME']; ?>/ping?ip='+encodeURIComponent(location.host)+'&t=4'">Ping this site</a></li>
+				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://<?php $_SERVER['SERVER_NAME']; ?>/trace?ip='+encodeURIComponent(location.host)+'&hops=30'">Traceroute this site</a></li>
+				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://<?php $_SERVER['SERVER_NAME']; ?>/ports?ip='+encodeURIComponent(location.host)+'&c=1'">Check common ports on this site</a></li>
 			  </ul>
 		  </div>
 		  <div class="col l3 s12">
 			  <h5 class="white-text">More...</i></h5>
 			  <ul>
-				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://iptools.co/whois?domain='+encodeURIComponent(location.host)">Whois this site</a></li>
-				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://iptools.co/reverse?ip='+encodeURIComponent(location.host)">Reverse IP on this site</a></li>
-				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://iptools.co/dns?i='+encodeURIComponent(location.host)">DNS Resolve this site</a></li>
+				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='<?php $_SERVER['SERVER_NAME']; ?>/whois?domain='+encodeURIComponent(location.host)">Whois this site</a></li>
+				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='<?php $_SERVER['SERVER_NAME']; ?>/reverse?ip='+encodeURIComponent(location.host)">Reverse IP on this site</a></li>
+				  <li><i class="mdi-action-lock"></i> <a class="white-text" href="javascript:location.href='http://<?php $_SERVER['SERVER_NAME']; ?>/dns?i='+encodeURIComponent(location.host)">DNS Resolve this site</a></li>
 			  </ul>
 		  </div>
       </div>
