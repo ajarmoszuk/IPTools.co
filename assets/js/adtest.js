@@ -1,0 +1,1 @@
+document.write('<div id="fakead" style="display:none">I am a fake advertisement meant to detect whether advertisement blocking is enabled.</div>');
