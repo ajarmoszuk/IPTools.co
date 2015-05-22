@@ -1,2 +1,2 @@
 # IPTools.co
-IPTools is a tool written in PHP which provides functionality and look to checking the network functions of a server.
+IPTools is a tool written in PHP which provides functionality and look to check the network functions of a server.
